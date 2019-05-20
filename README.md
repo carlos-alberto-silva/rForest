@@ -38,7 +38,7 @@ di<-tree1$di
 # Plotting stem 2d
 plotStem2d(hi,di, col="#654321")
 ```
-![](https://github.com/carlos-alberto-silva/ForestGapR/blob/master/readme/Fig_1.png)
+![](https://github.com/carlos-alberto-silva/rForest/blob/master/readme/Fig_1.png)
 
 
 ### 3-D visualization of tree stems
@@ -46,7 +46,7 @@ plotStem2d(hi,di, col="#654321")
 plotStem3d(hi,di,alpha=1,col="#654321")
 box3d()
 ```
-![](https://github.com/carlos-alberto-silva/ForestGapR/blob/master/readme/Fig_2.png)
+![](https://github.com/carlos-alberto-silva/rForest/blob/master/readme/Fig_2.png)
 
 ### Fitting a fifth-degree polynomial taper model
 ```r
@@ -60,7 +60,7 @@ dbh<-ForestInv01[,5]
 fit <- poly5Model(dbh,ht,di,hi, plotxy=TRUE)
 grid()
 ```
-![](https://github.com/carlos-alberto-silva/ForestGapR/blob/master/readme/Fig_3.png)
+![](https://github.com/carlos-alberto-silva/rForest/blob/master/readme/Fig_3.png)
 
 ### 3-D visualization of taper models
 ```r
@@ -80,4 +80,4 @@ box3d()
 grid3d(c("x+","y+"))
 aspect3d(0.3,0.3,1)
 ```
-![](https://github.com/carlos-alberto-silva/ForestGapR/blob/master/readme/Fig_4.png)
+![](https://github.com/carlos-alberto-silva/rForest/blob/master/readme/Fig_4.png)
