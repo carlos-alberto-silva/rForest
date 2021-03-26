@@ -1,3 +1,4 @@
+[![R-CMD-check](https://github.com/carlos-alberto-silva/rForest/actions/workflows/r.yml/badge.svg)](https://github.com/carlos-alberto-silva/rForest/actions/workflows/r.yml)
 ![Github](https://img.shields.io/badge/CRAN-0.0.1-green.svg)
 ![Github](https://img.shields.io/badge/Github-0.0.1-green.svg)
 [![Rdoc](http://www.rdocumentation.org/badges/version/rForest)](http://www.rdocumentation.org/packages/rForest)
