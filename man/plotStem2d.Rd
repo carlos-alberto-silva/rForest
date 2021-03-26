@@ -17,7 +17,7 @@ plotStem2d(hi,di,col)
 Returns an object of class "lm"
 }
 \description{
-plotStem3d is used to visualize tree stems in 32
+plotStem3d is used to visualize tree stems in 3D
 }
 \examples{
 # Importing forest inventory data
