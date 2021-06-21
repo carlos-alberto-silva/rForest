@@ -1,7 +1,7 @@
 [![R-CMD-check](https://github.com/carlos-alberto-silva/rForest/actions/workflows/r.yml/badge.svg)](https://github.com/carlos-alberto-silva/rForest/actions/workflows/r.yml)
 ![Github](https://img.shields.io/badge/CRAN-0.0.1-green.svg)
 ![Github](https://img.shields.io/badge/Github-0.0.1-green.svg)
-[![Rdoc](http://www.rdocumentation.org/badges/version/rForest)](http://www.rdocumentation.org/packages/rForest)
+[![Rdoc](https://www.rdocumentation.org/badges/version/rForest)](https://www.rdocumentation.org/packages/rForest)
 ![licence](https://img.shields.io/badge/Licence-GPL--3-blue.svg) 
 ![R_Forge](https://img.shields.io/badge/R_Forge-0.0.1-green.svg) 
 ![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/rForest)
