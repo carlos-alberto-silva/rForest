@@ -10,7 +10,6 @@
 #'@return Nothing, but outputs a plot
 #'@author Carlos Alberto Silva and Joao Paulo Sardo Madi
 #'@examples
-#'\dontrun{
 #'# Importing forest inventory data
 #'data(ForestInv01) 
 #'
@@ -34,7 +33,7 @@
 #'box3d()
 #'grid3d(c("x+","y+"))
 #'aspect3d(0.3,0.3,1)
-#'}
+#'
 #'@importFrom rgl open3d triangles3d
 #'@importFrom stats coef
 #'@importFrom alphashape3d ashape3d

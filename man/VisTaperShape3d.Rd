@@ -24,7 +24,6 @@ Nothing, but outputs a plot
 VisTaperShape3d is used for visualizing taper models in 3-D
 }
 \examples{
-\dontrun{
 # Importing forest inventory data
 data(ForestInv01) 
 
@@ -47,7 +46,7 @@ VisTaperShape3d(fit,dbh,height,col="forestgreen",solid=TRUE)
 box3d()
 grid3d(c("x+","y+"))
 aspect3d(0.3,0.3,1)
-}
+
 }
 \author{
 Carlos Alberto Silva and Joao Paulo Sardo Madi
