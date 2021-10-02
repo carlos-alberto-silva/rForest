@@ -6,6 +6,7 @@
 #'@param di, vector of trees dis
 #'@param col, stem color, e.g. "chocolate"
 #'@param alpha, stem transparency. Set a value from 0 to 1
+#'@return Nothing, but outputs a plot
 #'@author Carlos Alberto Silva
 #'@examples
 #'# Importing forest inventory data

@@ -14,7 +14,7 @@ plotStem2d(hi,di,col)
 \item{col, }{stem color, e.g. "chocolate"}
 }
 \value{
-Returns an object of class "lm"
+Nothing, but outputs a plot
 }
 \description{
 plotStem3d is used to visualize tree stems in 3D

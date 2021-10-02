@@ -15,6 +15,9 @@ plotStem3d(hi,di,col,alpha)
 
 \item{alpha, }{stem transparency. Set a value from 0 to 1}
 }
+\value{
+Nothing, but outputs a plot
+}
 \description{
 plotStem3d is used to visualize tree stems in 3D
 }

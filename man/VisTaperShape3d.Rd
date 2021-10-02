@@ -17,6 +17,9 @@ VisTaperShape3d(model,dbh,height,col, solid)
 
 \item{solid, }{if TRUE (default) returns a solid 3d model. If FALSE, returns a 3d grid model}
 }
+\value{
+Nothing, but outputs a plot
+}
 \description{
 VisTaperShape3d is used for visualizing taper models in 3-D
 }

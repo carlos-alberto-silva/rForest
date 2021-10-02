@@ -5,7 +5,7 @@
 #'@param hi, vector of measured tree i heights
 #'@param di, vector of measured tree diameters (di) at i heights
 #'@param col, stem color, e.g. "chocolate"
-#'@return Returns an object of class "lm"
+#'@return Nothing, but outputs a plot
 #'@author Carlos A. Silva
 #'@examples
 #'# Importing forest inventory data

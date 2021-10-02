@@ -7,6 +7,7 @@
 #'@param height, tree height, e.g. 25 m
 #'@param col, taper color, e.g. "forestgreen"
 #'@param solid, if TRUE (default) returns a solid 3d model. If FALSE, returns a 3d grid model
+#'@return Nothing, but outputs a plot
 #'@author Carlos Alberto Silva and Joao Paulo Sardo Madi
 #'@examples
 #'\dontrun{
