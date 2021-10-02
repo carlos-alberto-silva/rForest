@@ -2,15 +2,13 @@ Package: rForest
 Type: Package
 Title: Forest Inventory and Analysis
 Version: 0.1.3
-Date: 2021-06-21
-Author: 
-    Carlos A. Silva, 
-    Carine Klauberg Silva, 
-    Samuel P. C. Carvalho, 
-    Manoela de O. Rosa,
-    Joao P. S. Madi,
-    Caio Hamamura
-Maintainer: Carlos Alberto Silva <carlos_engflorestal@outlook.com>
+Authors@R: c(
+    person("Carlos Alberto", "Silva", email = "carlos_engflorestal@outlook.com", role = c("aut", "cph", "cre")),
+    person("Carine", "Klauberg", email = "carine_klauberg@hotmail.com", role = c("aut"), comment = "Reviews the documentation"),
+    person("Samuel P. C.", "Carvalho", role = c("aut")),
+    person("Manoela de O.", "Rosa", role = c("aut")),
+    person("Joao P. S.", "Madi", role=c("aut")),
+    person("Caio", "Hamamura", email = "caiohamamura@gmail.com", role = c("aut"), comment = "Maintenance and review"))
 Depends: R (>= 3.1.2)
 Imports: 
     alphashape3d,
@@ -19,5 +17,5 @@ Imports:
     sp
 Description: Set of tools designed for forest inventory analysis.
 License: GPL (>=2)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 URL: https://github.com/carlos-alberto-silva/rForest
