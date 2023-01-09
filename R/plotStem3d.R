@@ -46,7 +46,7 @@ plotStem3d<-function(hi,di,col="chocolate4", alpha=0.75) {
         xyz<-cbind(rbind(c0,c1))
         rgl::plot3d(xyz,type="l",lwd=2,xlab="",add=T,col="black",ylab="",axes=FALSE, xlim=c(x-maxr-2,x+maxr+2),ylim=c(y-maxr-2,y+maxr+2))
       ch <- t(geometry::convhulln(xyz, "QJ"))
-      rgl::rgl.triangles(xyz[ch,1],xyz[ch,2],xyz[ch,3], col=col,alpha=alpha)
+      rgl::triangles3d(xyz[ch,1],xyz[ch,2],xyz[ch,3], col=col,alpha=alpha)
   }
   
   rgl::aspect3d(0.3,0.3,1)
